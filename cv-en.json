@@ -35,7 +35,7 @@
     "work": [
         {
             "name": "Galileo Global Education",
-            "position": "Desarrollador IT",
+            "position": "IT Developer",
             "url": "",
             "image": "/works/gge.webp",
             "startDate": "2023-04-24",
@@ -47,7 +47,7 @@
         },
         {
             "name": "Volkswagen de México",
-            "position": "Desarrollador React",
+            "position": "React Developer",
             "image": "/works/vw.webp",
             "url": "",
             "startDate": "2020-12-19",
@@ -59,7 +59,7 @@
         },
         {
             "name": "Criteria | Inteligencia de Negocios",
-            "position": "Frontend/Backend Web developer",
+            "position": "Frontend/Backend Web Full Stack Developer",
             "image": "/works/criteria.webp",
             "url": "",
             "startDate": "2019-07-19", 
