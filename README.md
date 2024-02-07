@@ -72,4 +72,4 @@ yarn dev
 
 ## Licencia
 
-[MIT](LICENSE.txt) - Creado por [**DraketRomero**](https://midu.dev).
+[MIT](LICENSE.txt) - Creado por [**DraketRomero**](https://www.linkedin.com/in/rdiego-romero/).
