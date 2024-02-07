@@ -1,5 +1,4 @@
 ---
-import { basics } from '@cv';
 import Section from '@/components/Section.astro';
 import Mail from '@/icons/Mail.astro';
 import Phone from '@/icons/Phone.astro';
@@ -8,8 +7,11 @@ import LinkedIn from '@/icons/LinkedIn.astro';
 import X from '@/icons/X.astro';
 import WorldMap from '@/icons/WorldMap.astro';
 
-import type { SocialIcon } from "@/types"
+import type { SocialIcon } from "@/types";
+import { type Profile } from '@/interfaces/';
 
+const { data } = Astro.props;
+const { basics } = data;
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
@@ -19,7 +21,7 @@ const SOCIAL_ICONS: SocialIcon = {
     X
 }
 
-const linkedInfo = profiles.find(({ network }) => network === 'LinkedIn');
+const linkedInfo = profiles.find( ({ network }: Profile ) => network === 'LinkedIn');
 const linkedUrl = linkedInfo?.url;
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
@@ -65,7 +67,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
                 }
 
                 {
-                    profiles.map(({ network, url, username }) => {
+                    profiles.map(({ network, url }: Profile) => {
                     const Icon = SOCIAL_ICONS[network]
 
                     return (

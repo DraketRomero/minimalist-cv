@@ -1,0 +1,47 @@
+---
+import Layout from '@/layouts/Layout.astro';
+
+import About from '@/components/Sections/About.astro';
+import Education from '@/components/Sections/Education.astro';
+import Experience from '@/components/Sections/Experience.astro';
+import Hero from '@/components/Sections/Hero.astro';
+import KeyboardManager from '@/components/KeyboardManager.astro';
+import Projects from '@/components/Sections/Projects.astro';
+import Skills from '@/components/Sections/Skills.astro';
+
+import ButtonChangeIdiom from '@/components/Sections/ButtonChangeIdiom.astro';
+
+import dataEs from "cv-es.json";
+const { basics } = dataEs;
+const { name } = basics;
+
+---
+
+<Layout title={`Ing. ${name} - Curriculum Vitae`}>
+	<main>
+		<ButtonChangeIdiom message="Cambiar a inglés" route="/cv-en" />
+		<Hero data={dataEs} />
+		<About data={dataEs} title="Sobre mi" />
+		<Experience data={dataEs} title="Experiencia" />
+		<Education data={dataEs} title="Educación" />
+		<Skills data={dataEs} title="Habilidades" />
+		<!-- <Projects data={dataEs} title="Projectos" />  -->
+	</main>
+	<KeyboardManager data={dataEs} titles={["Imprimir", "Buscar comando", "Visitar"]} />
+</Layout>
+
+<style>
+	main {
+		padding: 4rem;
+		margin: auto;
+		width: 100%;
+	}
+
+	.btn-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+</style>

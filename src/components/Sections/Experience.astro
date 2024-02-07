@@ -1,14 +1,16 @@
 ---
 import Section from "@/components/Section.astro";
+import type { Volunteer } from "@/interfaces";
 
-import { work } from '@cv';
+const { data, title } = Astro.props;
+const { work } = data;
 ---
 
-<Section title="Experiencia laboral">
+<Section title={title} >
     <ul>
         {
             work.map(
-                ({ name, startDate, endDate, image, position, summary }) => {
+                ({ name, startDate, endDate, image, position, summary }: Volunteer) => {
                     const startYear = new Date(startDate).getFullYear();
                     const endYear = endDate !== null ? new Date(endDate).getFullYear() : 'Present';
                     const years = `${startYear} - ${endYear}`;

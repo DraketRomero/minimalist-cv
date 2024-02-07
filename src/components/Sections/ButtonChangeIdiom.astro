@@ -1,0 +1,34 @@
+---
+import Section from "@/components/Section.astro";
+
+const { message, route } = Astro.props;
+---
+
+<Section>
+    <div class="button-container no-print">
+        <a class="btn-change-idiom" href={route}>{`${message}`}</a>
+    </div>
+</Section>
+
+<style>
+    .button-container {
+        display: flex;
+        justify-content: end;
+    }
+
+    .btn-change-idiom {
+        background: #01184f;
+        color: white;
+        font-weight: bolder;
+        padding-inline: 20px;
+        padding-block: 5px;
+        border-radius: 10px;
+    }
+
+    @media (width <= 700px) { 
+        .btn-change-idiom {
+            width: 120px;
+            text-align: center;
+        }
+    }
+</style>

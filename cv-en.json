@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Diego Romero",
-        "label": "Full Stack Web Developer con 4 años de experiencia",
+        "label": "Full Stack Web Developer with 4 years of experience",
         "image": "/me.webp",
         "email": "draketromero@gmail.com",
         "phone": "+52 222 6134531",
         "url": "",
-        "summary": "Desarrolador web con +3 años de experiencia, amante de la tecnología y la programación. Me encuentro en búsqueda de un nuevo reto profesional que lleve al límite mis conocimientos y ponga a prueba mis capacidades como profesional. Tengo amplia experiencia en el ámbito web, sin embargo, no me cierro a nuevas aventuras en otras áreas. Soy mexicano de nacimiento, abierto a cambiar de recidencia y hasta de país si así se requiere.",
+        "summary": "Web developer with +3 years of experience, technology and programming lover. I am looking for a new professional challenge that improves my knowledge over the limit and tests my abilities. I have extensive experience in the web field, however, I am not closed to new challenges in other areas. I am Mexican by birth, open to changing residence and even country if required.",
         "location": {
             "address": "",
             "postalCode": "MX 72310",
@@ -40,7 +40,7 @@
             "image": "/works/gge.webp",
             "startDate": "2023-04-24",
             "endDate": "2024-02-01",
-            "summary": "Desarrollo de plataformas educativas usando el framework de Javascript Angular con typescript, así mismo, usando el framework de CSS Angular material y Boostrap, MYSQL como base de datos, y Symfony como framework de backend.",
+            "summary": "I built educational platforms using the Angular Javascript framework with typescript as well as using the Angular CSS framework material and Boostrap, MYSQL as a database and Symfony as a backend framework.",
             "highlights": [
                 "Started the company"
             ]
@@ -52,7 +52,7 @@
             "url": "",
             "startDate": "2020-12-19",
             "endDate": "2023-02-01",
-            "summary": "Desarrolle aplicaciones web empresariales usando ReactJS como framework de frontend, Material UI como framework de CSS y PHP como lenguaje de backend, MYSQL y SQLServer como bases de datos.",
+            "summary": "I built enterprise web applications using ReactJS as frontend framework, Material UI as CSS framework and PHP as backend language, MYSQL and SQLServer as databases.",
             "highlights": [
                 "Started the company"
             ]
@@ -64,7 +64,7 @@
             "url": "",
             "startDate": "2019-07-19", 
             "endDate": "2020-01-07",
-            "summary": "Desarrolle aplicaciones web de facturacion electronica usando JQuery como libreria de Javascript, boostrap como framework de CSS y Slim como framework de PHP para lenguaje de backend y MYSQL como bases de datos.",
+            "summary": "I built electronic invoicing web applications using JQuery as a Javascript library, boostrap as a CSS framework and Slim as a PHP framework for the backend part and MYSQL as databases.",
             "highlights": [
                 "Started the company"
             ]
@@ -87,9 +87,9 @@
         {
             "institution": "Instituto Tecnológico de Puebla",
             "url": "https://www.itpuebla.edu.mx/",
-            "area": "Ingeniería en Tecnologías de la Información y Comunicaciones",
+            "area": "Information and Communications Technologies Engineering",
             "image": "/schools/itp.webp",
-            "studyType": "Licenciatura",
+            "studyType": "Bachelor's degree",
             "startDate": "2014-08-18",
             "endDate": "2019-11-29",
             "score": "8.5",
@@ -100,9 +100,9 @@
         {
             "institution": "Colegio de Educación Profesional Técnica (CONALEP)",
             "url": "https://www.conalep.edu.mx/inicio",
-            "area": "Mantenimiento de equipo de cómputo y control digital.",
+            "area": "Computing and digital control equipment maintenance",
             "image": "/schools/conalep.webp",
-            "studyType": "Carrera técnica",
+            "studyType": "Technical Career",
             "startDate": "2011-08-18",
             "endDate": "2014-08-18",
             "score": "8.5",

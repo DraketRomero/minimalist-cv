@@ -1,8 +1,9 @@
 ---
-import { basics } from "@cv";
+import type { Profile } from "@/interfaces";
 
-
-const { profiles } = basics;
+const { data, titles } = Astro.props;
+const { basics } = data;
+const { profiles } =  basics;
 
 const SOCIAL_ICONS: Record<string, string> = {
     GitHub: `<svg
@@ -41,7 +42,7 @@ const SOCIAL_ICONS: Record<string, string> = {
 }
 
 
-const profilesInfo = profiles.map(({ network, url}) => {
+const profilesInfo = profiles.map(({ network, url }: Profile) => {
     const icon = SOCIAL_ICONS[network];
 
     const firstLetter = network[0].toUpperCase();
@@ -49,7 +50,7 @@ const profilesInfo = profiles.map(({ network, url}) => {
     return {
         id: network,
         section: 'Social',
-        title: `Visitar ${network}`,
+        title: `${titles[2]} ${network}`,
         url,
         icon,
         hotKey: `ctrl+${firstLetter}`
@@ -64,8 +65,9 @@ const profilesInfo = profiles.map(({ network, url}) => {
 
 <ninja-keys
     data-info={JSON.stringify(profilesInfo)}
-    placeholder="Buscar comando"
-    hideBreadcrumbs    
+    placeholder={titles[1]}
+    hideBreadcrumbs
+    title={titles[0]}
 >
 </ninja-keys>
 
@@ -76,6 +78,7 @@ const profilesInfo = profiles.map(({ network, url}) => {
 
   if (ninja != null) {
     const info = ninja.getAttribute("data-info") ?? '[]';
+    const title = ninja.getAttribute("title") ?? '';
     const parsedInfo = JSON.parse(info);
 
     const data = parsedInfo.map( (item: any) => ({
@@ -88,7 +91,7 @@ const profilesInfo = profiles.map(({ network, url}) => {
     ninja.data = [
       {
         id: "Print",
-        title: "Imprimir",
+        title,
         hotkey: "ctrl+P",
         section: "Acciones",
         icon: `<svg style="margin-right: 8px;" width="16" heigth="16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
