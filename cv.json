@@ -1,0 +1,414 @@
+{
+    "basics": {
+        "name": "Diego Romero",
+        "label": "Full Stack Web Developer con 4 años de experiencia",
+        "image": "/me.webp",
+        "email": "draketromero@gmail.com",
+        "phone": "+52 222 6134531",
+        "url": "",
+        "summary": "Desarrolador web con +3 años de experiencia, amante de la tecnología y la programación. Me encuentro en búsqueda de un nuevo reto profesional que lleve al límite mis conocimientos y ponga a prueba mis capacidades como profesional. Tengo amplia experiencia en el ámbito web, sin embargo, no me cierro a nuevas aventuras en otras áreas. Soy mexicano de nacimiento, abierto a cambiar de recidencia y hasta de país si así se requiere.",
+        "location": {
+            "address": "",
+            "postalCode": "MX 72310",
+            "city": "Puebla",
+            "countryCode": "MX",
+            "region": "Mexico"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Diego Romero",
+                "url": "https://linkedin.com/in/rdiego-romero"
+            },
+            {
+                "network": "X",
+                "username": "draket_vanhalen",
+                "url": "https://twitter.com/draket_vanhalen"
+            },
+            {
+                "network": "GitHub",
+                "username": "DraketRomero",
+                "url": "https://github.com/DraketRomero"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Galileo Global Education",
+            "position": "Desarrollador IT",
+            "url": "",
+            "image": "/works/gge.webp",
+            "startDate": "2023-04-24",
+            "endDate": "2024-02-01",
+            "summary": "Desarrollo de plataformas educativas usando el framework de Javascript Angular con typescript, así mismo, usando el framework de CSS Angular material y Boostrap, MYSQL como base de datos, y Symfony como framework de backend.",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "name": "Volkswagen de México",
+            "position": "Desarrollador React",
+            "image": "/works/vw.webp",
+            "url": "",
+            "startDate": "2020-12-19",
+            "endDate": "2023-02-01",
+            "summary": "Desarrolle aplicaciones web empresariales usando ReactJS como framework de frontend, Material UI como framework de CSS y PHP como lenguaje de backend, MYSQL y SQLServer como bases de datos.",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "name": "Criteria | Inteligencia de Negocios",
+            "position": "Frontend/Backend Web developer",
+            "image": "/works/criteria.webp",
+            "url": "",
+            "startDate": "2019-07-19", 
+            "endDate": "2020-01-07",
+            "summary": "Desarrolle aplicaciones web de facturacion electronica usando JQuery como libreria de Javascript, boostrap como framework de CSS y Slim como framework de PHP para lenguaje de backend y MYSQL como bases de datos.",
+            "highlights": [
+                "Started the company"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Instituto Tecnológico de Puebla",
+            "url": "https://www.itpuebla.edu.mx/",
+            "area": "Ingeniería en Tecnologías de la Información y Comunicaciones",
+            "image": "/schools/itp.webp",
+            "studyType": "Licenciatura",
+            "startDate": "2014-08-18",
+            "endDate": "2019-11-29",
+            "score": "8.5",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        },
+        {
+            "institution": "Colegio de Educación Profesional Técnica (CONALEP)",
+            "url": "https://www.conalep.edu.mx/inicio",
+            "area": "Mantenimiento de equipo de cómputo y control digital.",
+            "image": "/schools/conalep.webp",
+            "studyType": "Carrera técnica",
+            "startDate": "2011-08-18",
+            "endDate": "2014-08-18",
+            "score": "8.5",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Qwik - Introducción al Framework",
+            "date": "2021-11-07",
+            "issuer": "DevTalles",
+            "url": "https://cursos.devtalles.com/certificates/7szglvkmcf"
+        },
+        {
+            "name": "Scrum Fundamentals Certified",
+            "date": "2023-03-22",
+            "issuer": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+            "url": "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-ReyesDiegoGarridoRomero-970404.pdf"
+        },
+        {
+            "name": "MongoDB: Aprende desde cero a experto",
+            "date": "2022-09-11",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-25f71abb-225f-43ce-8e16-3a67ef3a5896/"
+        },
+        {
+            "name": "React Avanzado: Fullstack Next.js, Apollo, MongoDB y GraphQL",
+            "date": "2022-08-31",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-1a8c7c8c-0fa7-4290-877d-b839a79bf246"
+        },
+        {
+            "name": "TypeScript: Tu completa guía y manual de mano.",
+            "date": "2022-07-11",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-500b2411-ccc0-4494-bded-efc3d5a0e9fd/"
+        },
+        {
+            "name": "React PRO: Lleva tus bases al siguiente nivel",
+            "date": "2022-06-19",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-494854b8-308d-46d9-8d63-8c7e25ab0681/"
+        },
+        {
+            "name": "PHP 8 y MYSQL: El Curso Completo, Práctico y Desde Cero! ",
+            "date": "2022-01-14",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-94cb7cc6-63df-456e-b041-9cc657ecfbfd/"
+        },
+        {
+            "name": "React y Firebase: El curso completo, práctico y desde cero",
+            "date": "2021-04-19",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-45658642-1f68-4ecf-89e3-7df98d0e8e81/"
+        },
+        {
+            "name": "Desarrollo web. CSS desde cero Edición 2020",
+            "date": "2020-07-11",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-781351ed-57d4-415c-9a83-0c2904e9e073/"
+        },
+        {
+            "name": "Desarrollo web. HTML desde cero Edición 2020.",
+            "date": "2020-07-03",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-48ac1a26-1aad-4c18-9c77-e16a5f7cc3d0/"
+        },
+        {
+            "name": "Desarrollo web. JavaScript desde cero. Edición 2020",
+            "date": "2020-07-21",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-5d724a21-32d3-479e-a3ed-1ead70cf49e1/"
+        },
+        {
+            "name": "Yes al Inglés",
+            "date": "2013-06-21",
+            "issuer": "Stanford University",
+            "url": ""
+        },
+        {
+            "name": "Microsoft Office Specialist",
+            "date": "2013-06-21",
+            "issuer": "Microsoft",
+            "url": ""
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://cursos.devtalles.com/certificates/7szglvkmcf",
+            "summary": ""
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "level": "Master",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "CSS",
+            "level": "Master",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Diseño Responsive"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "level": "Master",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Backend",
+                "Fullstack"
+            ]
+        },
+        {
+            "name": "Tailwind",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "CSS Framework",
+                "Diseño Responsive"
+            ]
+        },
+        {
+            "name": "Material UI",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "CSS Framework",
+                "Diseño Responsive"
+            ]
+        },
+        {
+            "name": "TypeScript",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Backend",
+                "JavaScript Superset"
+            ]
+        },
+        {
+            "name": "Node",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Backend",
+                "JavaScript",
+                "Servidor"
+            ]
+        },
+        {
+            "name": "MySQL",
+            "level": "Avanzado",
+            "keywords": [
+                "Bases de Datos",
+                "SQL",
+                "Almacenamiento de Datos",
+                "Backend"
+            ]
+        },
+        {
+            "name": "Git",
+            "level": "Avanzado",
+            "keywords": [
+                "Control de Versiones",
+                "Colaboración",
+                "Código Fuente"
+            ]
+        },
+        {
+            "name": "GitHub",
+            "level": "Avanzado",
+            "keywords": [
+                "Control de Versiones",
+                "Colaboración",
+                "Código Fuente",
+                "Git"
+            ]
+        },
+        {
+            "name": "Next.js",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "React Framework",
+                "SSR",
+                "Static Generation"
+            ]
+        },
+        {
+            "name": "React",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "JavaScript Library",
+                "UI"
+            ]
+        },
+        {
+            "name": "Angular",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "JavaScript Library",
+                "UI"
+            ]
+        },
+        {
+            "name": "Qwik",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "JavaScript Library",
+                "UI"
+            ]
+        },
+        {
+            "name": "Java",
+            "level": "Intermedio",
+            "keywords": [
+                "Desarrollo de Software"
+            ]
+        },
+        {
+            "name": "Springboot",
+            "level": "Intermedio",
+            "keywords": [
+                "Desarrollo de Software",
+                "Backend"
+            ]
+        },
+        {
+            "name": "C++",
+            "level": "Intermedio",
+            "keywords": [
+                "Desarrollo de Software"
+            ]
+        },
+        {
+            "name": "C#",
+            "level": "Intermedio",
+            "keywords": [
+                "Desarrollo de Software",
+                "Backend"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/",
+            "isActive": true
+        }
+    ]
+}
