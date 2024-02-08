@@ -15,6 +15,8 @@ Proyecto basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">
 <p></p>
 
 
+<img src="resume.png"></img>
+
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
 ![GitHub stars](https://img.shields.io/github/stars/DraketRomero/minimalist-cv)
 ![GitHub issues](https://img.shields.io/github/issues/DraketRomero/minimalist-cv)
